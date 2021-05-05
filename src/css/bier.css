@@ -1,0 +1,103 @@
+.pageHeader {
+  display: grid;
+  justify-content: center;
+
+}
+
+.pageHeader div h1 {
+  margin-bottom: .5em;
+}
+
+.searchDiv {
+  justify-self: center;
+
+
+}
+
+.searchDiv form  {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 10px;
+}
+
+.searchDiv form input {
+
+  border: 1px solid #262C2D;
+  outline: none;
+  padding: .5em;
+  border-radius: 5px;
+
+}
+
+.searchDiv form button {
+  padding: .4em;
+  font-size: 16px;
+  background-color: #262C2D;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchDiv form button:focus{
+  transition: .5s;
+  background-color: #3D4547;
+}
+
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 50px;
+  margin:2em;
+  justify-content: center;
+}
+
+.container > div {
+  display: grid;
+  border: 1px solid #262C2D;
+  border-radius: 5px;
+  grid-gap: 10px;
+  padding: 1em 1em 2em 1em;
+  box-shadow: 0 0 2px black;
+
+
+}
+
+.container > div > div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #8F9491;
+  line-height: 20px;
+}
+
+.logo-bier {
+  display: block;
+  height: 80px;
+
+
+}
+
+
+
+
+
+
+
+.delete h3{
+ color: red;
+ font-weight: 600;
+ font-size: 30px;
+ text-shadow: 0 0 1px black;
+ cursor: pointer;
+ position: relative;
+ left: 100px;
+}
+
+.delete h3:hover{
+  color: #8b0000;
+  transition: .5s;
+}

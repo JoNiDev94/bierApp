@@ -1,0 +1,110 @@
+{
+  "beers": [
+    {
+      "id": 635759,
+      "name": "Amstel Radler",
+      "alcPercentage": "5",
+      "description": "smaakt goed als je er al drie op hebt",
+      "type": "Pilsner"
+    },
+    {
+      "id": 931286,
+      "name": "Paulaner",
+      "alcPercentage": "5",
+      "description": "hefe-weizen",
+      "type": "Wheat"
+    },
+    {
+      "id": 132085,
+      "name": "Grolsch",
+      "alcPercentage": "5",
+      "description": "Lekker biertje",
+      "type": "Pilsner"
+    },
+    {
+      "id": 654393,
+      "name": "Joost",
+      "alcPercentage": "234",
+      "description": "dsa",
+      "type": "IPA"
+    },
+    {
+      "name": "testin123",
+      "alcPercentage": "432",
+      "description": "dsa",
+      "type": "Pilsner",
+      "id": 993039
+    },
+    {
+      "id": 398518,
+      "name": "Schultenbrau",
+      "alcPercentage": "5",
+      "description": "niet te zupen",
+      "type": "Pilsner"
+    },
+    {
+      "id": 37413,
+      "name": "Chang",
+      "alcPercentage": "5",
+      "description": "Thais bier",
+      "type": "Pilsner"
+    }
+  ],
+  "brouwers": [
+    {
+      "id": 383711,
+      "name": "brouwer Joost",
+      "locatie": "Groningen",
+      "description": "lekker bier",
+      "bierSoorten": [
+        "Paulaner, ",
+        "federbrau, ",
+        "Joost, "
+      ]
+    },
+    {
+      "id": 493243,
+      "name": "yes brouwen",
+      "locatie": "Grunn",
+      "description": "aa",
+      "bierSoorten": [
+        "Heineken, ",
+        "Amstel, "
+      ]
+    },
+    {
+      "id": 746885,
+      "name": "aaa",
+      "locatie": "sss",
+      "description": "aaa",
+      "bierSoorten": [
+        "Heineken, "
+      ]
+    },
+    {
+      "id": 382389,
+      "name": "Brouwer Argab",
+      "locatie": "Grunn",
+      "description": "heerlijk bier",
+      "bierSoorten": [
+        "Amstel Radler, ",
+        "Paulaner, ",
+        "Schultenbrau, "
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user",
+      "password": "user",
+      "role": "USER"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "admin",
+      "role": "ADMIN"
+    }
+  ]
+}
