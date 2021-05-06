@@ -5,7 +5,8 @@ import Brouwers from './pages/Brouwers';
 import Edit from './pages/Edit';
 import NavList from './components/NavList';
 import {useState, useEffect} from 'react';
-import ReactDOM from "react-dom";
+import './css/font/Roboto-Regular.ttf';
+
 
 
 
@@ -191,7 +192,7 @@ const nieuwBrouwer = async ({brouwer}:any) => {
   //convert names into ids
   beerTypes.map(item => {
       beerNamesArr.map(x => {
-        if (item.name == x) {
+        if (item.name === x) {
             bierIds.push(item.id)
         }
       })

@@ -18,26 +18,16 @@ const selectSoorten = () => {
   const beerTypesArr = [...beerTypes];
 //if available beer id is equal to components beerIds, push the name of the beer in an array
 
+
   beerTypesArr.map(item => {
       idArr.map(x => {
-//updating state retrieves "," at the end of the id, therefore split at the comma
-  x= x.split(",")[0]
-
-
-        if (x == item.id) {
-
-
-
+        if (x === item.id) {
             tempBierSoorten.push(item.name+', ')
-
-
         }
-
-
       })
-
   })
 //returned array is inserted in singleBier component for UI
+
 
 return tempBierSoorten;
 

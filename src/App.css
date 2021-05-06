@@ -1,10 +1,17 @@
+@font-face {
+font-family: "RobotoI";
+src: local("GoldmanBold"),
+ url("./css/font/Roboto-Regular.ttf") format("truetype");
+
+}
+
+
 * {
-      
+font-family: 'RobotoI';
 }
 
 body {
   background-color: #F8F8F8;
-  font-family: 'Roboto';
 }
 
 nav ul {

@@ -1,6 +1,6 @@
 import logo from '../img/beer-bottle.png';
 import '../css/bewerk.css';
-import BewerkBtn from './BewerkBtn';
+
 
 
 const RegularSingleBier = ({singleBier, onDelete, onUpdate, showUpdate}:any) => {

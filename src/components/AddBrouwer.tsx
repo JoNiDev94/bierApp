@@ -6,7 +6,6 @@ const AddBrouwer = ({beerTypes, newBrouwer}:any) => {
 const[showAddBier,setShowAddBier] = useState<boolean>(false);
 const [name, setName] = useState<string>('');
 const [city, setLocatie] = useState<string>('');
-const [description, setDescription] = useState<string>('');
 const [beerIds, setBierSoorten] = useState<any>('');
 
 
@@ -19,7 +18,7 @@ const pushBeer = (name:any) => {
 //check if it already exists (when you check and uncheck one type multiple times )
 //if its the first time push
 //if tis the second time splice
-if (beerTrue.indexOf(name) == -1) {
+if (beerTrue.indexOf(name) === -1) {
 
     beerTrue.push(name);
 

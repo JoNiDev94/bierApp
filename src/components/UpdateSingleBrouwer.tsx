@@ -40,7 +40,9 @@ const pushBeer = (name:any) => {
 
 
 
-if (beerTrue.indexOf(name) == -1) {
+
+
+if (beerTrue.indexOf(name) === -1) {
 
     beerTrue.push(name);
 
@@ -95,6 +97,8 @@ setBierSoorten(beerTrue);
                        type='checkbox'
                        value={item.id}
                        onChange={(e)=>{pushBeer(e.target.value)}}
+
+
 
                        />
                      )}
