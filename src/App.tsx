@@ -78,7 +78,8 @@ function App() {
    //api url
    const url:string = 'https://intake-api.hulan.nl/';
    //token
-   const token = "OKb8BeybuRC3b00ki8rsWUs57XbLKkTq8tIkIY02AfdEFt81hsfw2FynOi56CHAkxZyCFIfN7hPxBHXDWqgcxKvWmLq7IGKesVFJtICtIv2aWw0sSKZ8HgE6iawr";
+  // const token = "OKb8BeybuRC3b00ki8rsWUs57XbLKkTq8tIkIY02AfdEFt81hsfw2FynOi56CHAkxZyCFIfN7hPxBHXDWqgcxKvWmLq7IGKesVFJtICtIv2aWw0sSKZ8HgE6iawr";
+   const token = "QxEJPnKqOCoKeA8nvh9lbza8v3EYm6svdMsFTehjkXyuvB0wN5wVJDeZX6Bm7ZmoqxzRVasox08IgFjm3y651pJMi1q1AeMBlJ6nbZUtsjr6XCeNhNrE0C63rRq5"
    //declare empty array for state
    let allBeer = [];
 

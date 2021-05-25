@@ -40,6 +40,8 @@ fetch(url, {
 .then((data) => {
 setToken(data.token);
   loginCheck(data.token);
+
+
 })
 }
 
